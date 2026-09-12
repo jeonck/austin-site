@@ -1,0 +1,2890 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>장바구니 가격 비교 — 오스틴 정착·생활 가이드</title>
+<meta name="description" content="오스틴에서 매주 사는 것들의 실제 가격 비교. 창고형 매장과 일반 마트, 한국 식료품점을 단위가격으로 정규화해 비교합니다. 영수증으로 확인한 가격만 기록합니다.">
+<link rel="canonical" href="https://austin.metacog.co.kr/prices/">
+<meta property="og:site_name" content="오스틴 정착·생활 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="장바구니 가격 비교 — 오스틴 정착·생활 가이드">
+<meta property="og:description" content="오스틴에서 매주 사는 것들의 실제 가격 비교. 창고형 매장과 일반 마트, 한국 식료품점을 단위가격으로 정규화해 비교합니다. 영수증으로 확인한 가격만 기록합니다.">
+<meta property="og:url" content="https://austin.metacog.co.kr/prices/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script>
+// 첫 페인트 전에 테마를 확정해 깜빡임을 없앤다.
+(function () {
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">ATX</span>
+      <span class="brand-text">오스틴 정착·생활 가이드</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="/essentials/">필수</a>
+      <a href="/housing/">주거</a>
+      <a href="/education/">교육</a>
+      <a href="/health-tax/">의료·세금</a>
+      <a href="/life/">생활</a>
+      <a href="/daily/">여가</a>
+      <a href="/business/">사업</a>
+      <a href="/wisdom/">지혜</a>
+      <a href="/checklist/">체크리스트</a>
+      <a href="/deadlines/">기한</a>
+      <a href="/events/">이벤트</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="/search/" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="밝은/어두운 화면 전환">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 13.5A8 8 0 0 1 10.5 4a8.5 8.5 0 1 0 9.5 9.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="메뉴" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="모바일 메뉴">
+    <a href="/essentials/"><span>🛬</span>도착 직후 필수</a>
+    <a href="/housing/"><span>🏡</span>주거와 동네</a>
+    <a href="/education/"><span>🎒</span>교육과 가족</a>
+    <a href="/health-tax/"><span>🏥</span>의료·보험·세금</a>
+    <a href="/life/"><span>🌮</span>생활과 커뮤니티</a>
+    <a href="/daily/"><span>🎟️</span>일상과 여가</a>
+    <a href="/business/"><span>🏪</span>사업과 창업</a>
+    <a href="/wisdom/"><span>🧭</span>먼저 겪은 사람의 지혜</a>
+    <a href="/checklist/"><span>✅</span>90일 체크리스트</a>
+    <a href="/deadlines/"><span>⏳</span>놓치면 안 되는 기한</a>
+    <a href="/free/"><span>🎫</span>무료 개방일</a>
+    <a href="/museums/"><span>🎟️</span>박물관·미술관</a>
+    <a href="/prices/"><span>🧾</span>장바구니 가격 비교</a>
+        <a href="/hmart/"><span>🛒</span>H Mart 주간 세일</a>
+    <a href="/business/data/"><span>🏪</span>업종별 사업체 수</a>
+    <a href="/events/"><span>📅</span>이벤트</a>
+    <a href="/news/"><span>📰</span>소식</a>
+    <a href="/search/"><span>🔍</span>검색</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="wrap page-head">
+  <nav class="crumbs" aria-label="위치"><a href="/">홈</a> <span>/</span> 장바구니 가격</nav>
+  <h1>장바구니 가격 비교</h1>
+  <p class="lede">
+    매주 사게 되는 것들을 <strong>단위가격</strong>으로 환산해 비교합니다.
+    창고형 매장은 규격이 커서 총액만 보면 비싸 보이지만, 개당·파운드당으로 보면
+    순서가 뒤집히는 경우가 많습니다.
+  </p>
+  <div class="callout callout-tight">
+    <p>
+      <strong>여기 있는 숫자는 전부 실제로 확인한 가격입니다.</strong>
+      영수증, 매장 표시가, 또는 매장 공식 온라인의 표시 가격이며 어느 쪽인지 표에 적혀 있습니다.
+      추정치나 전해 들은 가격은 넣지 않습니다.
+    </p>
+    <p>
+      <strong class="ai-note">「AI 조회」로 표시된 줄은 사람이 확인한 값이 아닙니다.</strong>
+      매주 자동으로 매장 가격을 찾아 넣은 것으로, 상품 페이지 링크가 함께 있으니
+      실제로 살 때는 그 링크에서 확인하세요. 확인된 값과 자릿수가 크게 다르면 자동으로
+      걸러지지만, 그래도 <strong>「가장 쌈」 표시는 사람이 확인한 값에만 붙습니다.</strong>
+    </p>
+    <p class="muted small">
+      가격은 지점·시기·행사에 따라 달라집니다. 확인일이 함께 표시되니 참고하세요.
+      60일이 지난 기록에는 표시가 붙습니다.
+      표시 가격은 세전이며, 텍사스에서 가공되지 않은 기본 식료품은 판매세가 붙지 않습니다.
+    </p>
+  </div>
+</div>
+
+
+<section class="drop-band" aria-labelledby="drop-head">
+  <div class="wrap">
+    <h2 id="drop-head"><span aria-hidden="true">↓</span> 지난번보다 싸졌습니다</h2>
+    <ul class="drop-list">
+      <li class="drop drop-ai">
+        <span class="drop-pct">-27%</span>
+        <span class="drop-body">
+          <span class="drop-title">
+<a href="https://www.weee.com/en/product/Pork-Belly-Skin-On-Sliced-6mm-Frozen-1/106035" rel="noopener nofollow">삼겹살 (pork belly)</a>
+            <em class="drop-store">Weee! (온라인 배송)</em>
+          </span>
+          <span class="drop-meta">
+            lb당 <s>$6.880</s>
+            → <strong>$4.990</strong>
+            <em class="muted">2026년 9월 6일 → 2026년 9월 7일</em>
+<em class="badge-ai">AI 조회</em>          </span>
+        </span>
+      </li>
+      <li class="drop drop-ai">
+        <span class="drop-pct">-17%</span>
+        <span class="drop-body">
+          <span class="drop-title">
+<a href="https://www.sayweee.com/en/product/Havista-Shirataki-Noodles-Konjac-Knots/106672" rel="noopener nofollow">곤약면</a>
+            <em class="drop-store">Weee! (온라인 배송)</em>
+          </span>
+          <span class="drop-meta">
+            oz당 <s>$0.282</s>
+            → <strong>$0.235</strong>
+            <em class="muted">2026년 9월 6일 → 2026년 9월 7일</em>
+<em class="badge-ai">AI 조회</em>          </span>
+        </span>
+      </li>
+    </ul>
+    <p class="muted small rise-note">
+      반대로 오른 것 16건:
+연어 (대서양, 냉동 포션) (Sam&#39;s Club +4%) · 파전 (냉동) (Weee! (온라인 배송) +5%) · 메추리알 (물에 절임) (Weee! (온라인 배송) +7%) · 소고기 립아이 슬라이스 (냉동) (Weee! (온라인 배송) +10%) · 진강 흑초 (Zhenjiang vinegar) (Weee! (온라인 배송) +14%) · 새우살 페이스트 (훠궈용, 냉동) (Weee! (온라인 배송) +18%) · 새우 만두 (냉동) (Weee! (온라인 배송) +22%) · 두부 (Weee! (온라인 배송) +32%) · 배 (Asian pear) (Weee! (온라인 배송) +36%) · 배추 (napa cabbage) (Weee! (온라인 배송) +43%) · 봉지라면 (Indomie Mi Goreng) (Weee! (온라인 배송) +50%) · 달걀 (Large) (Sam&#39;s Club +53%) · 생강 (Weee! (온라인 배송) +87%) · 뤄쓰펀 (螺蛳粉) (Weee! (온라인 배송) +97%) · 만가닥버섯 (shimeji) (Weee! (온라인 배송) +190%) · 흰만가닥버섯 (white beech) (Weee! (온라인 배송) +259%)    </p>
+  </div>
+</section>
+
+<div class="wrap section">
+  <h2 class="price-group">과일</h2>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>딸기</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$2.19</td>
+            <td class="unit-price">$2.190</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$5.97</td>
+            <td class="unit-price">$2.985</td>
+            <td>
++36%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$5.97</td>
+            <td class="unit-price">$2.985</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/strawberries-2-lbs/13612870276" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Strawberries, 2 lbs. · 2lb 클램셸 포장</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$8.49</td>
+            <td class="unit-price">$8.490</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/view/94025" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Strawberries · 1 lb 팩</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>바나나</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>3 lb</td>
+            <td>$1.47</td>
+            <td class="unit-price">$0.490</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>3 lb</td>
+            <td>$1.47</td>
+            <td class="unit-price">$0.490</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/bananas-3-lbs/13803520389" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Bananas, 3 lbs. · 3lb 봉지 단위 판매, Sam&#39;s Club 자체 상품</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>2.4 lb</td>
+            <td>$1.20</td>
+            <td class="unit-price">$0.500</td>
+            <td>
++2%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">한 송이 4~7개</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>2.8 lb</td>
+            <td>$3.29</td>
+            <td class="unit-price">$1.175</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Bananas/97078" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Bananas · 봉지당 2.6~3 lb (약 2.8 lb 기준), 할인 없음</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>수박 (씨 없는, 통째)</h2>
+      <span class="muted small">통당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>통당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 통</td>
+            <td>$3.97</td>
+            <td class="unit-price">$3.970</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">할인가 — 정가 $4.65</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 통</td>
+            <td>$5.97</td>
+            <td class="unit-price">$5.970</td>
+            <td>
++50%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 통</td>
+            <td>$5.97</td>
+            <td class="unit-price">$5.970</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/whole-seedless-watermelon/13589400933" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Whole Seedless Watermelon · 씨 없는 통수박 1개당 가격</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 통</td>
+            <td>$7.49</td>
+            <td class="unit-price">$7.490</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Watermelon-Medium-Size/72041" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Watermelon Seedless USA Medium Size · 씨 없는 미국산 중간 크기 수박, 1통</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>청포도 (씨 없는)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>3 lb</td>
+            <td>$4.87</td>
+            <td class="unit-price">$1.623</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">할인가 (정가 $6.87). 정가 기준 파운드당 $2.29</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>3 lb</td>
+            <td>$4.87</td>
+            <td class="unit-price">$1.623</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/seedless-green-grapes-3-lbs/13773419692" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Green Seedless Grapes, 3 lbs. · 할인가 (정가 $6.87) · 3lb 봉지, 현재 $2 할인 중</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>2.29 lb</td>
+            <td>$4.05</td>
+            <td class="unit-price">$1.769</td>
+            <td>
++9%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">평균 2.29 lb 봉지</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>3 lb</td>
+            <td>$7.99</td>
+            <td class="unit-price">$2.663</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Green-Seedless-Grape/22650" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Green Seedless Grape · 3 lb 봉지</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>사과</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>3 lb</td>
+            <td>$2.89</td>
+            <td class="unit-price">$0.963</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">H-E-B 갈라 3 lb 봉지. 허니크리스프는 같은 3 lb 에 $6.29</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>5 lb</td>
+            <td>$5.26</td>
+            <td class="unit-price">$1.052</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/gala-apple-5lb-crisp-and-aromatic/13714624219" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Gala Apples, 5 lbs. · 5lb 봉지, 갈라 품종</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>4 lb</td>
+            <td>$10.99</td>
+            <td class="unit-price">$2.748</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Envy-Apple/100354" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Envy Apple · 4 lb 봉지, 뉴질랜드/미국산 Envy 품종</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <h2 class="price-group">육류·해산물</h2>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>게맛살 (imitation crab)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$6.74</td>
+            <td class="unit-price">$3.370</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">김밥·샐러드용</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$6.74</td>
+            <td class="unit-price">$3.370</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/transocean-crab-classic-imitation-crabmeat-flake-style-2lb/13596702726" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">TransOcean Crab Classic Imitation Crab, Flake Style, 2 lbs. · 알래스카 폴락+킹크랩 블렌드, 2lb 팩</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$3.97</td>
+            <td class="unit-price">$3.970</td>
+            <td>
++18%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Great Catch 16 oz</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1.1 lb</td>
+            <td>$6.49</td>
+            <td class="unit-price">$5.900</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Kibun-Imitation-Crab-Meat--Frozen-1/5621" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Kibun Imitation Crab Meat, Frozen · 냉동 1.1 lb, Kibun 브랜드. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>다진 소고기 93/7</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$6.17</td>
+            <td class="unit-price">$6.170</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">무게 단위 판매. 한 팩 평균 약 $19.74</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$6.17</td>
+            <td class="unit-price">$6.170</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-93-percent-ground-beef/13865573229" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark 93/7 Ground Beef · 파운드당 가격(중량 상이), 평균 패키지 약 $19.74</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$7.99</td>
+            <td class="unit-price">$7.990</td>
+            <td>
++29%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">H-E-B 브랜드 1 lb 팩. Hill Country Fare 같은 규격은 $7.39</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$9.99</td>
+            <td class="unit-price">$9.990</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Organic-Grass-Fed-Ground-Beef-93-7/110906" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Organic Grass Fed Ground Beef 93/7 · 1 lb, 유기농/그래스페드. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>로티세리 치킨 (조리 완료)</h2>
+      <span class="muted small">마리당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+<p class="muted small price-note">즉석에서 먹을 수 있어 바쁜 날 저녁의 기준선이 된다</p>    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>마리당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 마리</td>
+            <td>$4.97</td>
+            <td class="unit-price">$4.970</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hill Country Fare(자체 저가 브랜드). H-E-B 브랜드 시즈닝 제품은 $7.97</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 마리</td>
+            <td>$4.98</td>
+            <td class="unit-price">$4.980</td>
+            <td>
++0%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">조리 완료 상태. 한 마리로 2~3끼가 나온다</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 마리</td>
+            <td>$4.98</td>
+            <td class="unit-price">$4.980</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-seasoned-rotisserie-chicken/13820153808" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Seasoned Rotisserie Chicken · 조리 완료된 통닭 1마리 고정가</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 마리</td>
+            <td>$17.99</td>
+            <td class="unit-price">$17.990</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Yushang-Shandong-Dezhou-Fully-Cooked-Whole-Chicken-1/97852" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Yushang Shandong Dezhou Fully Cooked Whole Chicken · 1.25lb, 조리 완료(진공포장) 중식 스타일 통닭</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>삼겹살 (pork belly)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$3.97</td>
+            <td class="unit-price">$3.970</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-pork-belly-cryovac/13782001227" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Pork Belly, Cryovac · 진공포장 삼겹살, 파운드당 가격</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$4.99</td>
+            <td class="unit-price">$4.990</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Pork-Belly-Skin-On-Sliced-6mm-Frozen-1/106035" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Pork Belly Skin On, Sliced 6mm, Frozen · 냉동 1 lb, 껍질 있는 6mm 슬라이스. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1.12 lb</td>
+            <td>$5.59</td>
+            <td class="unit-price">$4.991</td>
+            <td>
++26%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">슬라이스 삼겹살</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$6.88</td>
+            <td class="unit-price">$6.880</td>
+            <td>
++73%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">얇게 썬 삼겹살 롤(껍질 제거</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>연어 (대서양, 냉동 포션)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2.5 lb</td>
+            <td>$24.94</td>
+            <td class="unit-price">$9.976</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">냉동 포션</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2.5 lb</td>
+            <td>$25.94</td>
+            <td class="unit-price">$10.376</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-farm-raised-atlantic-salmon-portions-frozen-5-7-ct-2-5-lbs/15229118484" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Farm Raised Norwegian Atlantic Salmon Portions, Frozen, 5-7 ct., 2.5 lbs. · 노르웨이산 냉동 포션, 2.5lb 팩(5-7개입)</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$12.97</td>
+            <td class="unit-price">$12.970</td>
+            <td>
++30%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">냉동이 아니라 생물 필레(수산 코너 무게 판매)</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>0.5 lb</td>
+            <td>$8.79</td>
+            <td class="unit-price">$17.580</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Premium-Atlantic-Salmon-Frozen-1/77071" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Premium Atlantic Salmon, Frozen · 냉동 8 oz(0.5 lb) 포션</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>닭가슴살</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>4.85 lb</td>
+            <td>$10.62</td>
+            <td class="unit-price">$2.190</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Value Pack(대용량). 소포장 H-E-B 브랜드는 파운드당 $4.99~5.39 로 두 배가 넘는다</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$2.88</td>
+            <td class="unit-price">$2.880</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-boneless-skinless-chicken-breast/15384570919" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Boneless and Skinless Chicken Breasts · 뼈/껍질 제거 닭가슴살, 파운드당 가격</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>2 lb</td>
+            <td>$9.99</td>
+            <td class="unit-price">$4.995</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Boneless-Chicken-Breast--Frozen-1/37446" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Boneless Chicken Breast, Frozen · 냉동 2 lb 팩</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>돼지갈비 (spare ribs, 통째)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+<p class="muted small price-note">한국식 갈비찜·구이에 쓰기 좋은 부위</p>    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$2.68</td>
+            <td class="unit-price">$2.680</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">통째 판매</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$2.68</td>
+            <td class="unit-price">$2.680</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/p/members-mark-pork-spareribs/prod4570168" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Whole Bone-In Pork Spare Ribs, Vacuum Pack · 진공포장 통 스페어립, 파운드당 가격</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5 lb</td>
+            <td>$32.99</td>
+            <td class="unit-price">$6.598</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Pork-Spare-Ribs--Frozen-1/37009" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Pork Spare Ribs, Frozen · 냉동 5 lb 통. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>연어 (알래스카 홍연어, 냉동)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$27.94</td>
+            <td class="unit-price">$13.970</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">자연산 알래스카 홍연어</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>2 lb</td>
+            <td>$27.94</td>
+            <td class="unit-price">$13.970</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-wild-caught-boneless-alaskan-sockeye-salmon-frozen-2-lbs/13620410917" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Wild Caught Boneless Alaskan Sockeye Salmon, Frozen, 2 lbs. · 알래스카산 냉동 홍연어, 2lb 팩</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>0.31 lb</td>
+            <td>$6.99</td>
+            <td class="unit-price">$22.548</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Cannon-Fish-Co-Alaska-Sockeye-Salmon--Frozen-1/84331" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Cannon Fish Co Alaska Sockeye Salmon, Frozen · 냉동 5 oz(약 0.31 lb) 포션, 알래스카산. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>냉동 소고기 패티 75/25</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>10 lb</td>
+            <td>$45.87</td>
+            <td class="unit-price">$4.587</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">40개들이(각 1/4 lb) 냉동 패티</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>10 lb</td>
+            <td>$45.97</td>
+            <td class="unit-price">$4.597</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-75-25-seasoned-ground-beef-patties-frozen-1-4-lb-40-ct/13585619707" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark 75/25 Seasoned Ground Beef Patties, Frozen, 1/4 lb., 40 ct. · 1/4lb 패티 40개(총 10lb) 냉동 박스</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>다진 소고기 90/10 (롤)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$5.86</td>
+            <td class="unit-price">$5.860</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">진공포장 롤. 한 팩 평균 약 $62.94 로 크다. 소분 냉동 전제</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$5.86</td>
+            <td class="unit-price">$5.860</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-90-percent-lean-ground-beef-chub/21209400000" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark 90/10 Ground Beef Roll, Vacuum Pack · 약 10lb 진공포장 롤, 파운드당 가격</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>소고기 Top Butt (Choice, 통째)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$9.78</td>
+            <td class="unit-price">$9.780</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">통째 판매</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$9.78</td>
+            <td class="unit-price">$9.780</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/cryovac-whole-beef-top-sirloin-butt-cov-1-pc-bag/13694201935" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark USDA Choice Angus Beef Top Butt Boneless Center Cut, Cryovac · USDA Choice 앵거스, 파운드당 가격</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <h2 class="price-group">유제품·달걀</h2>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>달걀 (Large)</h2>
+      <span class="muted small">개당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+<p class="muted small price-note">규격이 12·24·60개들이로 갈려 총액 비교가 무의미하다. 개당으로 봐야 한다</p>    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>개당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>12 개</td>
+            <td>$1.67</td>
+            <td class="unit-price">$0.139</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hill Country Fare 12개들이. 60개들이도 개당 값은 같다($8.12). 최저가는 Sunups $1.46</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>24 개</td>
+            <td>$4.82</td>
+            <td class="unit-price">$0.201</td>
+            <td>
++44%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">케이지프리 Grade AA</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>18 개</td>
+            <td>$5.52</td>
+            <td class="unit-price">$0.307</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/Eggland-s-Best-Large-Grade-A-Eggs-18-ct/15270923431" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Eggland&#39;s Best Large Grade A Eggs, 18 ct. · 18구 달걀 팩</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>12 개</td>
+            <td>$4.99</td>
+            <td class="unit-price">$0.416</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/California-Ranch-Fresh-Grand-AA-Large-Eggs-1-dozen-1/11374" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">[California Ranch Fresh] Grand AA Large Eggs · 1다스(12개) 기준, 개당 약 $0.42. 조회 시점 일시 품절 표시였으나 가격은 확인됨</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>버터 (가염)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>4 lb</td>
+            <td>$10.96</td>
+            <td class="unit-price">$2.740</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">4 oz 스틱 16개(합 4 lb)</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>4 lb</td>
+            <td>$10.96</td>
+            <td class="unit-price">$2.740</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-salted-sweet-cream-butter-elgin-style-16ct/15365221245" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Salted Sweet Cream Butter Sticks, 4 oz., 16 ct. · 4oz 스틱 16개(총 4lb), 가염 버터</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 lb</td>
+            <td>$4.46</td>
+            <td class="unit-price">$4.460</td>
+            <td>
++63%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Land O Lakes 4 oz 스틱 4개(합 1 lb). Challenge 같은 규격 $4.28</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>0.5 lb</td>
+            <td>$6.29</td>
+            <td class="unit-price">$12.580</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Vital-Farms-Sea-Salted-Butter/42965" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Vital Farms Grass-Fed Salted Butter · 8 oz(0.5 lb, 스틱 2개), 가염 버터</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>우유 (whole)</h2>
+      <span class="muted small">gal당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>gal당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>1 gal</td>
+            <td>$2.84</td>
+            <td class="unit-price">$2.840</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/members-mark-vitamin-d-whole-milk-1-gallon/17971460511" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark Vitamin D Whole Milk, 1 gal. · 비타민D 강화 전유(whole milk), 1갤런</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 gal</td>
+            <td>$3.79</td>
+            <td class="unit-price">$3.790</td>
+            <td>
++33%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">H-E-B 브랜드. 최저가는 Park Manor $2.89</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>0.75 gal</td>
+            <td>$9.29</td>
+            <td class="unit-price">$12.387</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Lactaid-Whole-Milk-/93017" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Lactaid Whole Milk · 96 fl.oz(0.75 gal) 용기, 락토프리 우유</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <h2 class="price-group">한국 식재료</h2>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>깐마늘</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$6.29</td>
+            <td class="unit-price">$6.290</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$6.29</td>
+            <td class="unit-price">$6.290</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Fresh-Peeled-Garlic/93015" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Fresh Peeled Garlic 1 lb · 냉장 보관, 깐마늘 1lb 팩</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>0.375 lb</td>
+            <td>$2.98</td>
+            <td class="unit-price">$7.947</td>
+            <td>
++26%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">6 oz 팩 — 쿠폰가. 파운드당으로 환산하면 한인마트·Weee! 보다 비싸다</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>두부</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>16.01 oz</td>
+            <td>$1.99</td>
+            <td class="unit-price">$0.124</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Sansui 순두부 454g. 2개 이상 구매 시 개당 가격 (1개만 사면 $2.49)</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>14 oz</td>
+            <td>$1.99</td>
+            <td class="unit-price">$0.142</td>
+            <td>
++14%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">H-E-B Organics 극단단두부 14 oz</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>14 oz</td>
+            <td>$2.29</td>
+            <td class="unit-price">$0.164</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/House-Foods-Tofu-Medium-Firm/85180" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">House Foods Tofu Medium Firm 14 oz · House Foods 브랜드, 중간 단단함(medium firm), 14oz</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>배추 (napa cabbage)</h2>
+      <span class="muted small">통당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>통당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 통</td>
+            <td>$3.48</td>
+            <td class="unit-price">$3.480</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">할인가 — 정가 $5.29</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 통</td>
+            <td>$4.37</td>
+            <td class="unit-price">$4.370</td>
+            <td>
++26%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">평균 2.97 lb 한 통</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 통</td>
+            <td>$4.99</td>
+            <td class="unit-price">$4.990</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Napa-Cabbage/99216" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Napa Cabbage 1 count · 배추 1통, 계절에 따라 크기 상이</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>배추김치</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+<p class="muted small price-note">브랜드와 용기 크기가 제각각이라 온스당으로 비교한다</p>    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>52.8 oz</td>
+            <td>$9.48</td>
+            <td class="unit-price">$0.180</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.samsclub.com/ip/jayone-fresh-korean-napa-cabbage-kimchi/13838922939" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Jayone Fresh Korean Napa Cabbage Kimchi, 3.3 lbs. · 3.3lb(52.8oz) 배추김치</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>17.64 oz</td>
+            <td>$5.79</td>
+            <td class="unit-price">$0.328</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/NongHyup-Pungsan-Napa-Cabbage-Kimchi-Cut/102989" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">NongHyup Pungsan Napa Cabbage Kimchi, Cut · 500g(약 17.64 oz), 한국산 절단 배추김치</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>2.8 oz</td>
+            <td>$1.88</td>
+            <td class="unit-price">$0.671</td>
+            <td>
++274%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">종가집 2.8 oz 파우치. 이 매장에는 병·통 김치가 없어 온스당 값이 한인마트보다 훨씬 비싸다</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>파</h2>
+      <span class="muted small">단당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>단당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>1 단</td>
+            <td>$0.65</td>
+            <td class="unit-price">$0.650</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">유기농은 $1.86</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 단</td>
+            <td>$1.29</td>
+            <td class="unit-price">$1.290</td>
+            <td>
++98%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 단</td>
+            <td>$1.29</td>
+            <td class="unit-price">$1.290</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.weee.com/en/product/Green-Onion/58583" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Green Onion 1 bunch · 파 1단</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>곤약면</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>10.58 oz</td>
+            <td>$2.49</td>
+            <td class="unit-price">$0.235</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Havista-Shirataki-Noodles-Konjac-Knots/106672" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Havista Shirataki Noodles Konjac Knots 300 g · 하비스타 곤약면(실타래형) 300g</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>7.06 oz</td>
+            <td>$1.99</td>
+            <td class="unit-price">$0.282</td>
+            <td>
++20%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">2개 이상 구매 시 개당 가격 (1개는 $2.49)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>뤄쓰펀 (螺蛳粉)</h2>
+      <span class="muted small">개당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>개당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 개</td>
+            <td>$2.79</td>
+            <td class="unit-price">$2.790</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">2개 이상 구매 시 개당 가격 (1개는 $3.29)</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 개</td>
+            <td>$5.49</td>
+            <td class="unit-price">$5.490</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/LIZIQI-LIUZHOU-LUOSIFEN/106868" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">LIZIQI LIUZHOU LUOSIFEN 330 g · 리즈치(李子柒) 브랜드 뤄쓰펀, 330g 1개입</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>만가닥버섯 (shimeji)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5.29 oz</td>
+            <td>$0.79</td>
+            <td class="unit-price">$0.149</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">큰 폭 할인가 — 정가 $1.79</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5.29 oz</td>
+            <td>$2.29</td>
+            <td class="unit-price">$0.433</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Shimeji-Brown-Mushroom/64427" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Shimeji Brown Mushroom 150 g · 브라운 만가닥버섯, 150g(≈5.29oz)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>메추리알 (물에 절임)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>15 oz</td>
+            <td>$4.49</td>
+            <td class="unit-price">$0.299</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>15 oz</td>
+            <td>$4.79</td>
+            <td class="unit-price">$0.319</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Aroy-D-Quail-Eggs-in-Water/76412" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Aroy-D Quail Eggs in Water 15 oz · Aroy-D 브랜드, 물에 절인 메추리알 15oz</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>배 (Asian pear)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>2.625 lb</td>
+            <td>$7.99</td>
+            <td class="unit-price">$3.044</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">3개들이 2.5~2.75 lb — 중간값 기준. 할인가 (정가 $10.49)</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>7.7 lb</td>
+            <td>$31.99</td>
+            <td class="unit-price">$4.155</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Asian-Honey-Pears/38928" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Asian Honey Pears 7.7 lb · 아시안 배(honey pear), 7.7lb 박스 단위 판매</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>봉지라면 (Indomie Mi Goreng)</h2>
+      <span class="muted small">개당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>개당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5 개</td>
+            <td>$3.99</td>
+            <td class="unit-price">$0.798</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">5개들이</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5 개</td>
+            <td>$5.99</td>
+            <td class="unit-price">$1.198</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Indomie-Mi-Goreng-Fried-Instant-Noodles/2859997" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Indomie Mi Goreng Fried Instant Noodles 85g*5 (5 pack) · 인도미 미고랭 봉지라면, 5개입 팩 가격(개당 약 $1.20)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>새우 만두 (냉동)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>17.64 oz</td>
+            <td>$8.59</td>
+            <td class="unit-price">$0.487</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">할인가 — 정가 $9.49</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>17.64 oz</td>
+            <td>$10.49</td>
+            <td class="unit-price">$0.595</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Savory-Express-Shrimp-Dumplings-20pc-Frozen-1/70929" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Savory Express Shrimp Dumplings 20pc Frozen 500 g · 냉동 새우만두 20개입, 500g(≈17.64oz)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>새우살 페이스트 (훠궈용, 냉동)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>10.58 oz</td>
+            <td>$11.49</td>
+            <td class="unit-price">$1.086</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5.29 oz</td>
+            <td>$6.79</td>
+            <td class="unit-price">$1.284</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Haidilao-Magic-Cook-Shrimp-Paste-frozen-1/108755" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Haidilao Magic Cook Shrimp Paste, frozen 150 g · 하이디라오(海底捞) 브랜드 훠궈용 새우살 페이스트, 150g(≈5.29oz)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>생강</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$1.49</td>
+            <td class="unit-price">$1.490</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">할인가 — 정가 $2.29</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$2.79</td>
+            <td class="unit-price">$2.790</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Ginger/61602" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Ginger 0.95-1.05 lb · 생강, 약 1lb 내외 중량</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>소고기 립아이 슬라이스 (냉동)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+<p class="muted small price-note">불고기·샤브용으로 얇게 썰어 나온 것. 일반 마트에서는 이 두께로 팔지 않는다</p>    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$14.99</td>
+            <td class="unit-price">$14.990</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>1 lb</td>
+            <td>$16.49</td>
+            <td class="unit-price">$16.490</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Beef-Ribeye-Sliced-Roll--Frozen-1/24092" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Beef Ribeye Sliced Roll, Frozen 1 lb · 냉동 립아이 슬라이스 롤, 1lb</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>쌀 (단립종)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>5 lb</td>
+            <td>$6.98</td>
+            <td class="unit-price">$1.396</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Botan 칼로스 5 lb. Nishiki 같은 규격은 $9.78</td></tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>15 lb</td>
+            <td>$34.99</td>
+            <td class="unit-price">$2.333</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Hitomebore-Premium-Short-Grain-Rice/29955" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hitomebore Premium Short Grain Rice 15 lb · 일본산 단립종 쌀, 15lb 봉지</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>진강 흑초 (Zhenjiang vinegar)</h2>
+      <span class="muted small">fl oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>fl oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>18.6 fl oz</td>
+            <td>$3.49</td>
+            <td class="unit-price">$0.188</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>18.6 fl oz</td>
+            <td>$3.99</td>
+            <td class="unit-price">$0.215</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Hengshun-Zhenjiang-Vinegar/99090" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hengshun Zhenjiang Vinegar 18.6 fl.oz · Hengshun(恒顺) 브랜드 진강 흑초, 18.6 fl oz</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>청경채 (Shanghai bok choy)</h2>
+      <span class="muted small">lb당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>lb당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>2 lb</td>
+            <td>$5.29</td>
+            <td class="unit-price">$2.645</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>2 lb</td>
+            <td>$5.29</td>
+            <td class="unit-price">$2.645</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Shanghai-Bok-Choy/94800" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Shanghai Bok Choy 2 lb · 청경채(상하이 배추), 2lb 팩</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>파전 (냉동)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>18.52 oz</td>
+            <td>$3.79</td>
+            <td class="unit-price">$0.205</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>18.52 oz</td>
+            <td>$3.99</td>
+            <td class="unit-price">$0.215</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/I-Mei-Green-Onion-Pancake--Frozen-1/94169" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">I-Mei Green Onion Pancake, Frozen 525 g · I-Mei 브랜드 냉동 파전, 525g(≈18.52oz)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>흰만가닥버섯 (white beech)</h2>
+      <span class="muted small">oz당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>oz당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>5.29 oz</td>
+            <td>$1.79</td>
+            <td class="unit-price">$0.338</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="ai-row">
+            <td>
+              <a href="https://www.sayweee.com/en/grocery-delivery/austin-texas" rel="noopener">Weee! (온라인 배송)</a>
+              <span class="store-kind">온라인 아시아 식료품</span>
+            </td>
+            <td>3.53 oz</td>
+            <td>$4.29</td>
+            <td class="unit-price">$1.215</td>
+            <td>
+<em class="badge-ai">AI 조회</em>
+            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind"><a href="https://www.sayweee.com/en/product/Hokto-White-Beech-Mushrooms/100765" rel="noopener nofollow">AI 조회 · 상품 페이지 확인</a></span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hokto Organic White Beech Mushroom 100 g · Hokto 브랜드 유기농 흰만가닥버섯, 100g(≈3.53oz)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <h2 class="price-group">음료·기타</h2>
+  <section class="price-block">
+    <div class="price-head">
+      <h2>생수 (16.9 fl oz 병)</h2>
+      <span class="muted small">병당 비교 · 최근 확인 2026년 9월 7일</span>
+    </div>
+    <div class="table-scroll">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>매장</th><th>규격</th><th>가격</th>
+            <th>병당</th><th>비교</th><th>확인일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="best">
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>40 병</td>
+            <td>$3.98</td>
+            <td class="unit-price">$0.100</td>
+            <td>
+<em class="badge-best">가장 쌈</em>
+            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Member&#39;s Mark 정제수 40병</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>40 병</td>
+            <td>$5.18</td>
+            <td class="unit-price">$0.130</td>
+            <td>
++30%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Hill Country Fare 40병 — 할인가(정가 $5.38). Sam&#39;s Club 40병과 같은 규격이다</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.heb.com/" rel="noopener">H-E-B</a>
+              <span class="store-kind">일반 마트 (텍사스 기반)</span>
+            </td>
+            <td>32 병</td>
+            <td>$4.29</td>
+            <td class="unit-price">$0.134</td>
+            <td>
++35%            </td>
+            <td>
+              2026년 9월 7일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Niagara 32병</td></tr>
+          <tr>
+            <td>
+              <a href="https://www.samsclub.com/" rel="noopener">Sam&#39;s Club</a>
+              <span class="store-kind">창고형 (회원제)</span>
+            </td>
+            <td>40 병</td>
+            <td>$6.58</td>
+            <td class="unit-price">$0.165</td>
+            <td>
++65%            </td>
+            <td>
+              2026년 9월 6일
+              <span class="src-kind">온라인 표시가</span>
+            </td>
+          </tr>
+          <tr class="price-note-row"><td colspan="6" class="muted small">Ozarka 천연 샘물 40병 — 같은 매장 안에서도 브랜드에 따라 병당 가격이 갈린다</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<div class="wrap section">
+  <div class="section-head"><h2>비교할 때 주의할 것</h2></div>
+  <div class="card-grid">
+    <div class="card">
+      <h3>총액이 아니라 단위가격</h3>
+      <p class="muted">
+        달걀 60개들이와 12개들이를 총액으로 비교하면 의미가 없습니다.
+        개당으로 환산해야 실제 차이가 보입니다. 미국 마트는 가격표 구석에
+        단위가격(unit price)을 작게 인쇄해 두니 그것을 보세요.
+      </p>
+    </div>
+    <div class="card">
+      <h3>다 먹을 수 있는 양인가</h3>
+      <p class="muted">
+        창고형 매장의 단위가격이 싸도 <strong>버리면 가장 비쌉니다.</strong>
+        특히 신선식품은 가구 인원과 소비 속도를 먼저 계산하세요.
+        냉동이 되는 것과 안 되는 것을 나눠 생각하면 실수가 줍니다.
+      </p>
+    </div>
+    <div class="card">
+      <h3>연회비를 나눠서 더하기</h3>
+      <p class="muted">
+        회원제 창고형 매장은 연회비가 듭니다. 1년에 몇 번 갈지로 나눠
+        방문당 비용을 더해야 실제 비교가 됩니다. 자주 가면 무시할 수준이 되고,
+        가끔 가면 절약분을 넘어섭니다.
+      </p>
+    </div>
+    <div class="card">
+      <h3>같은 매장 안에서도 갈립니다</h3>
+      <p class="muted">
+        매장을 고르는 것만으로 끝나지 않습니다. 같은 창고형 매장의 생수도
+        자체 브랜드와 유명 브랜드의 <strong>병당 가격이 60% 넘게 차이</strong>납니다.
+        매장 자체 브랜드(private label)를 먼저 보는 습관이 대체로 유리합니다.
+      </p>
+    </div>
+    <div class="card">
+      <h3>왕복 거리도 비용입니다</h3>
+      <p class="muted">
+        오스틴은 넓습니다. 몇 달러 아끼려고 왕복 한 시간을 쓰면 남는 게 없습니다.
+        <a href="/life/groceries/">장보기</a>에서 다룬 대로, 한 번에 크게 사서
+        냉동해 두는 방식이 현실적인 경우가 많습니다.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="wrap section">
+  <div class="callout">
+    <h2>가격을 알려주세요</h2>
+    <p>
+      이 표는 실제로 장을 본 사람의 영수증으로만 자랍니다.
+      같은 품목이라도 지점과 시기에 따라 다르니, 기록이 많을수록 정확해집니다.
+    </p>
+    <p>
+      <a href="https://github.com/jeonck/austin-site/issues/new?template=2-price.yml" rel="noopener">가격 제보하기</a> —
+      품목, 매장, 규격, 가격, 산 날짜를 적어 주시면 확인 후 반영합니다.
+    </p>
+    <p class="muted small">
+      물가 전반의 구조는 <a href="/daily/cost-of-living/">물가 감 잡기</a>에,
+      장보기 요령은 <a href="/life/groceries/">장보기와 한국 식재료</a>에 있습니다.
+    </p>
+  </div>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">오스틴 정착·생활 가이드</p>
+        <p class="muted">텍사스 오스틴에 자리 잡고, 잘 사는 데 필요한 정보와 지혜</p>
+      </div>
+      <div>
+        <p class="footer-head">분야</p>
+        <ul>
+<li><a href="/essentials/">도착 직후 필수</a></li><li><a href="/housing/">주거와 동네</a></li><li><a href="/education/">교육과 가족</a></li><li><a href="/health-tax/">의료·보험·세금</a></li><li><a href="/life/">생활과 커뮤니티</a></li><li><a href="/daily/">일상과 여가</a></li><li><a href="/business/">사업과 창업</a></li><li><a href="/wisdom/">먼저 겪은 사람의 지혜</a></li>        </ul>
+      </div>
+      <div>
+        <p class="footer-head">도구</p>
+        <ul>
+          <li><a href="/checklist/">90일 체크리스트</a></li>
+          <li><a href="/deadlines/">놓치면 안 되는 기한</a></li>
+          <li><a href="/free/">무료 개방일</a></li>
+          <li><a href="/museums/">박물관·미술관 36곳</a></li>
+          <li><a href="/prices/">장바구니 가격 비교</a></li>
+          <li><a href="/hmart/">H Mart 주간 세일</a></li>
+          <li><a href="/business/data/">업종별 사업체 수</a></li>
+          <li><a href="/events/">이벤트 캘린더</a></li>
+          <li><a href="/news/">지역 소식</a></li>
+          <li><a href="/search/">검색</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      이 사이트는 정착 과정을 안내하는 참고 자료입니다. <strong>이민·세무·법률 자문이 아닙니다.</strong>
+      수수료·기한·자격 요건은 자주 바뀌므로 실제 진행 전 반드시 각 문서에 링크된 공식 페이지에서 다시 확인하세요.
+    </p>
+    <p class="muted small">마지막 빌드 2026-09-12 07:56 CDT (오스틴 현지 시간)</p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

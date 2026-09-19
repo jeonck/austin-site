@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오스틴 소식 — 오스틴 정착·생활 가이드</title>
+<meta name="description" content="오스틴 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<link rel="canonical" href="https://austin.metacog.co.kr/news/">
+<meta property="og:site_name" content="오스틴 정착·생활 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="오스틴 소식 — 오스틴 정착·생활 가이드">
+<meta property="og:description" content="오스틴 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<meta property="og:url" content="https://austin.metacog.co.kr/news/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+<meta name="theme-color" content="#b8461f">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JMWM0FW1VH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JMWM0FW1VH', { 'allow_google_signals': false });
+</script>
+<script>
+// 첫 페인트 전에 테마를 확정해 깜빡임을 없앤다.
+(function () {
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/img/logo.svg" alt="ATX" width="34" height="34">
+      <span class="brand-text">오스틴 정착·생활 가이드</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="/essentials/">필수</a>
+      <a href="/housing/">주거</a>
+      <a href="/education/">교육</a>
+      <a href="/health-tax/">의료·세금</a>
+      <a href="/life/">생활</a>
+      <a href="/daily/">여가</a>
+      <a href="/business/">사업</a>
+      <a href="/wisdom/">지혜</a>
+      <a href="/checklist/">체크리스트</a>
+      <a href="/deadlines/">기한</a>
+      <a href="/events/">이벤트</a>
+      <a href="/free/">무료 개방</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="/search/" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="밝은/어두운 화면 전환">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 13.5A8 8 0 0 1 10.5 4a8.5 8.5 0 1 0 9.5 9.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="메뉴" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="모바일 메뉴">
+    <a href="/essentials/"><span>🛬</span>도착 직후 필수</a>
+    <a href="/housing/"><span>🏡</span>주거와 동네</a>
+    <a href="/education/"><span>🎒</span>교육과 가족</a>
+    <a href="/health-tax/"><span>🏥</span>의료·보험·세금</a>
+    <a href="/life/"><span>🌮</span>생활과 커뮤니티</a>
+    <a href="/daily/"><span>🎟️</span>일상과 여가</a>
+    <a href="/business/"><span>🏪</span>사업과 창업</a>
+    <a href="/wisdom/"><span>🧭</span>먼저 겪은 사람의 지혜</a>
+    <a href="/checklist/"><span>✅</span>90일 체크리스트</a>
+    <a href="/deadlines/"><span>⏳</span>놓치면 안 되는 기한</a>
+    <a href="/free/"><span>🎫</span>무료 개방일</a>
+    <a href="/museums/"><span>🎟️</span>박물관·미술관</a>
+    <a href="/prices/"><span>🧾</span>장바구니 가격 비교</a>
+        <a href="/hmart/"><span>🛒</span>H Mart 주간 세일</a>
+    <a href="/business/data/"><span>🏪</span>업종별 사업체 수</a>
+    <a href="/events/"><span>📅</span>이벤트</a>
+    <a href="/news/"><span>📰</span>소식</a>
+    <a href="/search/"><span>🔍</span>검색</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="wrap page-head">
+  <nav class="crumbs" aria-label="위치"><a href="/">홈</a> <span>/</span> 소식</nav>
+  <h1>오스틴 소식</h1>
+  <p class="lede">지역 언론과 시청·학군 공지를 매일 새벽 모읍니다. 제목을 누르면 원문으로 갑니다.</p>
+<p class="muted small">마지막 수집 2026-09-19 08:10 CDT</p></div>
+<div class="wrap section">
+  <ul class="news-list">
+    <li>
+<a href="https://austinot.com/corn-maze-austin-tx" rel="noopener nofollow">2026년 오스틴 근교 최고의 콘 미로(Corn Maze)와 가을 농장</a><p class="muted">가을을 맞아 오스틴 인근 농장들이 운영하는 콘 미로, 야간 콘 미로, 호박 농장 결합 체험 등을 소개하는 가족 나들이 가이드다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/arts/old-city-infrastructure-becomes-a-canvas-on-the-lake-in-waterwork/" rel="noopener nofollow">레이디버드 레이크 위 옛 도시 기반시설이 캔버스로, &#39;WaterWork&#39; 프로젝션 아트 행사</a><p class="muted">이번 달 이틀간 시홀름(Seaholm) 취수 시설이 대형 프로젝션 스크린으로 변신해 23명 예술가의 작품 15점을 선보이는 무료 행사 &#39;WaterWork&#39;가 열린다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://austinot.com/top-events-in-austin-september-18-september-20-2026" rel="noopener nofollow">이번 주말(9월 18일~20일) 오스틴에서 즐길거리</a><p class="muted">5th Street Vintage Market, Pumpkin Nights 등 9월 18일부터 20일까지 오스틴에서 열리는 주말 행사들을 정리한 가이드다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://austinot.com/free-things-to-do-in-austin-at-night" rel="noopener nofollow">오스틴 밤에 즐길 수 있는 무료 명소 15곳 (2026 나이트라이프 가이드)</a><p class="muted">야외 명소, 무료 라이브 음악, 나이트라이프 등 오스틴에서 돈 들이지 않고 즐길 수 있는 밤 명소 15곳을 소개한다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://thelongcenter.org/all-you-need-to-know-for-teresa-lozano-long-community-day-on-september-19/" rel="noopener nofollow">9월 19일 Teresa Lozano Long 커뮤니티 데이 안내</a><p class="muted">The Long Center가 창의적 표현을 통한 커뮤니티 구축을 기념하는 연례 무료 행사인 커뮤니티 데이를 9월 19일에 개최하며, 블록파티와 아트 페스티벌이 결합된 행사다.</p>      <p class="news-meta"><span class="src">The Long Center</span>
+<span>9월 15일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinisd.org/announcements/2026/09/14/listen-now-austin-isd-official-podcast-sept-14-en-espanol" rel="noopener nofollow">오스틴 ISD 공식 팟캐스트, 9월 14일자 에피소드 (스페인어판 포함)</a><p class="muted">학군 경계 재조정(District Boundary Realignment)에 관한 의견 수렴을 위해 9월 14일과 16일 오후 6시에 공개 설명회(Open House)를 개최한다는 소식을 포함한 오스틴 ISD 팟캐스트 에피소드다.</p>      <p class="news-meta"><span class="src">Austin ISD 공지</span>
+<span>9월 14일</span></p>
+    </li>
+    <li>
+<a href="https://austinot.com/austin-picks-september-14-to-september-17-2026" rel="noopener nofollow">오스틴 하이라이트: 9월 14일~17일 — 음식, 음악, 예술 등</a><p class="muted">Kehlani 월드 투어와 Fantastic Fest를 포함해 9월 14일부터 17일까지 오스틴에서 열리는 무료·인기 이벤트를 소개하는 주간 가이드다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/news/texas/texas-agency-suspends-flock-camera-approvals/" rel="noopener nofollow">텍사스주, Flock 자동차량번호판 인식 카메라 승인 중단</a><p class="muted">텍사스 교통부(TxDOT)가 보안·사생활 침해 우려로 Flock의 자동차량번호판 인식(ALPR) 카메라 승인 발급을 중단했다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/weather/forecast/austin-weather-central-texas-forecast/269-43840919" rel="noopener nofollow">중부 텍사스, 다음 주 가을 시작에도 더위 지속 전망</a><p class="muted">다음 주 공식적으로 가을이 시작되지만 중부 텍사스는 계속 더울 것이라는 날씨 전망이다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/weather/forecast/weekend-heat-with-rain-chances-holding-off-for-now/" rel="noopener nofollow">주말 더위 지속, 비 소식은 다음 주로 미뤄져</a><p class="muted">이번 주말도 무더운 날씨가 이어지고 비 소식은 다음 주에나 기대할 수 있다는 예보다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://austinot.com/best-pizza-austin" rel="noopener nofollow">오스틴 최고의 피자 10곳: 뉴욕·디트로이트·나폴리 스타일</a><p class="muted">뉴욕식, 디트로이트식, 나폴리 화덕 피자 등 오스틴의 다양한 피자 맛집을 소개하는 리스트다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/news/local/hutto/hutto-flock-cameras/" rel="noopener nofollow">휴토시(Hutto) 시의회, Flock 카메라 프로그램 폐지 의결</a><p class="muted">휴토(Hutto) 시의회가 Flock Safety 감시카메라 프로그램을 영구 중단하기로 표결했다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/news/local/austin/housing-advocates-hope-city-of-austin-contract-switch-builds-on-affordability-momentum/" rel="noopener nofollow">오스틴시 계약사 변경, 주택 공급 옹호 단체들 기대감</a><p class="muted">약 6천만 달러 규모의 시 계약사 변경으로 허가 및 토지 관리 방식이 바뀔 수 있어, 주택 공급 옹호 단체들이 주거비 부담 완화 흐름이 이어지길 기대하고 있다는 소식이다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/news/crime/antique-bracelet-taken-northwest-austin-texas-business/269-6419c219-8f3e-443d-b15a-b2b0c29e03e4" rel="noopener nofollow">오스틴 북서부 소상공인 매장서 골동품 팔찌 절도</a><p class="muted">오스틴 북서부의 한 소규모 매장에서 감시카메라에 절도 장면이 포착된 골동품 팔찌 도난 사건이 발생했다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/news/crime/uh-football-player-carmello-brooks-pregnant-woman-assault/285-2b4f10cb-f770-43e0-87f3-21a3835c9ca7" rel="noopener nofollow">휴스턴대(UH) 미식축구 선수, 임산부 폭행 혐의로 기소</a><p class="muted">휴스턴대 미식축구부 선수가 임산부를 들어 올려 바닥에 내던졌다는 혐의로 법원 문서에 기록되었으며, 학교 측은 사건을 인지하고 추가 조사 중이라고 밝혔다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/news/local/suspected-explosives-found-wimberley-linked-deceased-tenant-investigation-ongoing/269-8ceec431-2424-446c-a223-1f7d249f5522" rel="noopener nofollow">윔벌리 인근 헤이스 카운티 부지에서 폭발물 의심 물질 발견, 처리 완료</a><p class="muted">헤이스 카운티 당국이 윔벌리(Wimberley) 인근 부지에서 발견된 폭발물 의심 물질을 처리했으며, ATF가 발생 경위를 조사 중이다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://austinot.com/best-arcades-in-austin-tx" rel="noopener nofollow">오스틴 최고의 레트로 오락실 &amp; 바케이드(Barcade)</a><p class="muted">레트로 게임기와 핀볼, 성인용 바케이드부터 가족 친화적인 최신 오락실까지 오스틴 내 추천 장소를 소개하는 가이드다.</p>      <p class="news-meta"><span class="src">The Austinot</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/18/consumers-could-soon-feel-impact-of-high-diesel-prices" rel="noopener nofollow">디젤 가격 사상 최고치, 소비자에게 영향 미칠 전망</a><p class="muted">AAA 조사에 따르면 텍사스 평균 디젤 가격이 갤런당 5.98달러로 작년보다 2달러 이상, 지난주보다 약 40센트 올랐다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/music/contract-confusion-cuts-music-short-at-pecan-street-festival/" rel="noopener nofollow">계약 문제로 중단된 페칸 스트리트 페스티벌(Pecan Street Festival) 공연</a><p class="muted">지난 토요일 페칸 스트리트 페스티벌의 라이브 공연이 갑작스럽게 중단되며 주최 측이 계약 문제로 논란에 휩싸였다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://blantonmuseum.org/2026/09/17/the-european-avant-garde-press-release/" rel="noopener nofollow">블랜튼 미술관(Blanton Museum of Art), &#39;유럽 아방가르드: 인상주의에서 입체주의까지&#39; 전시 개막</a><p class="muted">블랜튼 미술관에서 모네, 칸딘스키, 피카소 등의 작품을 소개하는 &#39;유럽 아방가르드&#39; 전시가 열린다.</p>      <p class="news-meta"><span class="src">Blanton Museum of Art</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/category-qmmunity/dreaming-bigger-and-better-with-this-years-atx-trans-pride/" rel="noopener nofollow">올해 더 크고 알차게 돌아온 ATX Trans Pride</a><p class="muted">DJ 에드워드 웨스트의 이야기를 중심으로 올해 ATX Trans Pride 행사를 소개하는 기사다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/17/suit-blames-texas-abortion-ban-for-san-antonio-woman-s-death" rel="noopener nofollow">텍사스 낙태 금지법이 샌안토니오 여성 사망 원인이라는 소송 제기</a><p class="muted">자간전증으로 사망한 37세 샌안토니오 임신 여성의 유가족이 텍사스 낙태 금지법이 사망 원인이라고 주장하며 소송을 제기했다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/17/diesel-prices-rising" rel="noopener nofollow">텍사스 디젤 가격, 사상 최고치 기록</a><p class="muted">텍사스 디젤 가격이 지난 9월 이후 2달러 이상 올라 지난주 사상 최고치를 기록했다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/17/federal-interest-rate-hike-s-potential-impact-on-texas-real-estate-market" rel="noopener nofollow">연준 기준금리 인상이 텍사스 부동산 시장에 미치는 영향</a><p class="muted">연방준비제도(Fed)가 수요일 3년 만에 처음으로 기준금리 인상을 승인하면서 텍사스 부동산 시장에 미칠 영향을 다룬 기사다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/police/news/homicide-investigation-3001-south-congress-avenue" rel="noopener nofollow">South Congress Avenue 3001번지 살인 사건 수사</a><p class="muted">2026년 6월 11일 St. Edward&#39;s University 인근 South Congress Avenue 3001번지에서 발생한 살인 사건에 대한 수사 보도자료로, 피해자는 사망하고 용의자는 체포되었다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/police/news/update-suspect-arrested-homicide-investigation-15424-fm-1825-road" rel="noopener nofollow">FM 1825 Road 15424번지 살인 사건, 용의자 체포</a><p class="muted">2026년 5월 6일 Cajun Eats 인근에서 발생한 살인 사건 수사가 업데이트되어 용의자가 체포되었다는 내용이다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/police/news/joint-release-austin-police-and-bastrop-police-investigate-two-connected-homicides" rel="noopener nofollow">오스틴 경찰과 배스트롭 경찰, 연관된 두 건의 살인 사건 공동 수사</a><p class="muted">오스틴 경찰(APD)과 배스트롭 경찰(BPD)이 서로 연관된 두 건의 살인 사건을 공동으로 수사한다는 보도자료다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/human-resources/news/city-austin-announces-2026-fair-chance-hiring-job-and-resource-fair" rel="noopener nofollow">오스틴시, 2026년 공정 고용 기회 취업·자원 박람회 개최</a><p class="muted">오스틴시가 2026년 9월 30일 수요일 오전 10시부터 오후 3시까지 Permitting and Development Center에서 공정 고용 기회(Fair Chance Hiring) 취업·자원 박람회를 개최한다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 16일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/water/news/austin-water-invites-community-open-house-large-water-users" rel="noopener nofollow">오스틴 워터(Austin Water), 대량 물 사용자 관련 커뮤니티 공개 설명회 개최</a><p class="muted">오스틴 워터가 서비스 지역 내 대량 물 사용자에 대한 정책안에 관해 지역 주민 의견을 수렴하는 공개 설명회(Open House)를 연다는 내용이다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 16일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinisd.org/announcements/2026/09/14/message-from-superintendent-segura" rel="noopener nofollow">세구라(Segura) 교육감의 메시지</a><p class="muted">오스틴 독립교육구(Austin ISD) 세구라 교육감이 새 학년 시작 후 17개 캠퍼스를 방문한 소감을 전하는 메시지다.</p>      <p class="news-meta"><span class="src">Austin ISD 공지</span>
+<span>9월 15일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinisd.org/announcements/2026/09/09/austin-ed-fund-awards-350000-boost-austin-isd-educator-projects-en-espanol" rel="noopener nofollow">Austin Ed Fund, Austin ISD 교사 프로젝트에 35만 달러 지원</a><p class="muted">Austin Ed Fund가 2026 Inspire the Future Grant 프로그램을 통해 Austin ISD 교사 주도 프로젝트 48건에 35만 달러를 지원한다.</p>      <p class="news-meta"><span class="src">Austin ISD 공지</span>
+<span>9월 9일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinisd.org/announcements/2026/09/08/listen-now-austin-isd-official-podcast-sept-8-en-espanol" rel="noopener nofollow">지금 들어보세요! Austin ISD 공식 팟캐스트 9월 8일자</a><p class="muted">Austin ISD 이사회가 Marshall 중학교와 Linder 초등학교의 학군 경계 재조정 1단계를 10월에 표결할 예정이라는 소식을 담은 공식 팟캐스트 에피소드다.</p>      <p class="news-meta"><span class="src">Austin ISD 공지</span>
+<span>9월 8일</span></p>
+    </li>
+    <li>
+<a href="https://www.kut.org/news/2026-09-07/15-years-ago-the-labor-day-wildfires-upended-and-rewrote-thousands-of-lives" rel="noopener nofollow">15년 전 노동절 산불, 수천 명의 삶을 바꾸다</a><p class="muted">2011년 Bastrop과 중부 텍사스 지역을 덮친 노동절 산불 15주년을 맞아 당시 피해를 입은 사람들의 이야기를 조명한다.</p>      <p class="news-meta"><span class="src">KUT 오스틴 공영라디오</span>
+<span>9월 7일</span></p>
+    </li>
+    <li>
+<a href="https://austinparks.org/blog/breaking-down-austins-fy-2026-27-parks-budget/" rel="noopener nofollow">오스틴 2026-27 회계연도 공원 예산 살펴보기</a><p class="muted">오스틴 시의회가 8월 12일 승인한 2026-27 회계연도 예산 중 공원 관련 예산 내용을 분석한다.</p>      <p class="news-meta"><span class="src">Austin Parks Foundation</span>
+<span>8월 14일</span></p>
+    </li>
+    <li>
+<a href="https://austinparks.org/blog/voters-will-decide-a-260-million-parks-bond-this-november/" rel="noopener nofollow">오스틴 유권자, 오는 11월 2억 6천만 달러 규모 공원 채권(Parks Bond) 투표</a><p class="muted">2년 넘는 계획과 몇 차례의 연기 끝에 오스틴 시의회가 2026년 8월 6일 정식으로 2026년 11월 공원 채권 투표를 발의했다는 내용이다.</p>      <p class="news-meta"><span class="src">Austin Parks Foundation</span>
+<span>8월 6일</span></p>
+    </li>
+    <li>
+<a href="https://cbsaustin.com/features/we-are-austin/broadway-in-austins-hit-filled-juliet-shakes-up-shakespeare-at-bass-concert-hall" rel="noopener nofollow">Broadway in Austin의 화제작 &#39;&amp; 줄리엣(&amp; Juliet)&#39;, 배스 콘서트홀(Bass Concert Hall)에서 셰익스피어를 새롭게</a><p class="muted">Texas Performing Arts의 Broadway in Austin이 7월 19일까지 배스 콘서트홀에서 뮤지컬 &#39;&amp; Juliet&#39;을 공연한다는 소식이다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>7월 15일</span></p>
+    </li>
+    <li>
+<a href="https://blantonmuseum.org/2026/07/07/haas-brothers-press-release/" rel="noopener nofollow">블랜튼 미술관(Blanton Museum of Art), &#34;Haas 형제: 언캐니 밸리(Uncanny Valley)&#34; 전시 개최</a><p class="muted">블랜튼 미술관이 2026년 7월 7일부터 Haas 형제의 15년간 작업을 담은 전시 &#34;Haas Brothers: Uncanny Valley&#34;를 선보인다는 소식이다.</p>      <p class="news-meta"><span class="src">Blanton Museum of Art</span>
+<span>7월 7일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/news/new-cat-species-identified-for-first-time-in-100-years/" rel="noopener nofollow">100년 만에 확인된 신종 고양이</a><p class="muted">연구진이 유전자 데이터를 통해 새로운 고양이 종을 확인했다는 소식이다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kxan.com/sports-general/week-4-texas-high-school-football/" rel="noopener nofollow">텍사스 고교 미식축구 4주차 경기 결과</a><p class="muted">2026시즌 텍사스 고교 미식축구 4주차 경기 결과를 정리한 소식이다.</p>      <p class="news-meta"><span class="src">KXAN 오스틴</span>
+<span>9월 19일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/news/national/military-news/us-defense-secretary-pete-hegseth-visits-defense-companies-austin/269-44ea0ef4-acea-491a-9707-13a0036e732d" rel="noopener nofollow">피트 헤그세스 국방장관, 오스틴 방위산업체 방문</a><p class="muted">피트 헤그세스 미 국방장관이 &#39;Arsenal of Freedom Tour&#39;의 일환으로 오스틴 소재 방위산업체 두 곳을 방문했다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.kvue.com/article/news/police/hutto-flock-license-plate-reader-cameras/269-bb59e66e-fe73-4253-86b7-e7c66a0259a0" rel="noopener nofollow">허토(Hutto) 시의회, 플록(Flock) 번호판 인식 카메라 사용 중단 의결</a><p class="muted">허토 시의회가 번호판 인식 카메라(Flock cameras) 사용을 중단하기로 표결했으며, 이는 이런 결정을 내린 중부 텍사스 최근 도시 사례이다.</p>      <p class="news-meta"><span class="src">KVUE 오스틴</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/screens/fantastic-fest-review-joko-anwar-ghost-in-the-cell/" rel="noopener nofollow">판타스틱 페스트 리뷰: &#39;Ghost in the Cell&#39;</a><p class="muted">인도네시아 감독 조코 안와르의 신작 공포영화 &#39;Ghost in the Cell&#39;에 대한 판타스틱 페스트 리뷰다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/18/trump-administration-begins-building-wall-in-big-bend-region" rel="noopener nofollow">트럼프 행정부, 텍사스 빅 벤드(Big Bend) 지역 국경 장벽 건설 착수</a><p class="muted">트럼프 행정부가 460억 달러 규모의 국경 장벽·장애물·도로·기술 설치 계획의 일환으로 텍사스 빅 벤드 지역에서 국경 장벽 건설을 시작했다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/screens/film-review/fantastic-fest-review-the-glorious-dead/" rel="noopener nofollow">판타스틱 페스트 리뷰: &#39;The Glorious Dead&#39;</a><p class="muted">애덤스 패밀리(Adams Family) 감독팀의 신작 &#39;The Glorious Dead&#39;에 대한 판타스틱 페스트 리뷰다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="http://www.spectrumlocalnews.com/tx/austin/news/2026/09/18/texas-freezes-installation-of-flock-cameras-along-state-roads" rel="noopener nofollow">텍사스주, 주 도로변 플록(Flock) 카메라 신규 설치 동결</a><p class="muted">텍사스주가 주 소유 도로변에 플록 번호판 인식 카메라를 신규 설치하는 것을 동결했으며, 이미 설치된 카메라에는 영향이 없다.</p>      <p class="news-meta"><span class="src">Spectrum News Austin</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.austinchronicle.com/screens/fantastic-fest-interview-kylgor-in-the-grisly-abyss/" rel="noopener nofollow">판타스틱 페스트(Fantastic Fest) 인터뷰: &#39;Kylgor in the Grisly Abyss&#39;</a><p class="muted">메이슨 뉴턴 드러시가 팬데믹 기간에 만든 야만인 서사시 작품 &#39;Kylgor in the Grisly Abyss&#39;에 관한 판타스틱 페스트 인터뷰다.</p>      <p class="news-meta"><span class="src">Austin Chronicle</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://www.austintexas.gov/housing/news/public-hearing-notice-regarding-issuance-bonds-elm-ridge-apartments" rel="noopener nofollow">채권 발행 관련 공청회 공지 — Elm Ridge Apartments</a><p class="muted">오스틴 주택금융공사(Austin Housing Finance Corporation)가 2026년 10월 8일 오전 10시 채권(노트) 발행과 관련한 공청회를 개최한다는 공지다.</p>      <p class="news-meta"><span class="src">City of Austin 보도자료</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://cbsaustin.com/features/we-are-austin/texas-performing-arts-celebrates-45-years-with-broadway-jazz-legends-dance-and-magic" rel="noopener nofollow">Texas Performing Arts, 개관 45주년 기념 — 브로드웨이·재즈 거장·무용·마술 공연</a><p class="muted">UT의 Texas Performing Arts(TPA)가 개관 45주년을 맞아 Audra McDonald, Branford Marsalis 등 브로드웨이 명작과 세계적 무용·마술 공연을 포함한 새 시즌을 선보인다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>9월 10일</span></p>
+    </li>
+    <li>
+<a href="https://austin.eater.com/maps/best-cocktail-bars-austin" rel="noopener nofollow">오스틴 최고의 칵테일 바</a><p class="muted">Eater Austin이 잘 만든 칵테일을 중심으로 오스틴의 대표적인 칵테일 바들을 소개한다.</p>      <p class="news-meta"><span class="src">Eater Austin</span>
+<span>9월 10일</span></p>
+    </li>
+    <li>
+<a href="https://www.leanderisd.org/getcertified/" rel="noopener nofollow">자격증 취득하기: 240과의 파트너십</a><p class="muted">Leander ISD가 240 Certification 및 240 Tutoring과 협력해 현직 및 예비 교사들의 자격증 취득을 지원한다.</p>      <p class="news-meta"><span class="src">Leander ISD 공지</span>
+<span>9월 9일</span></p>
+    </li>
+    <li>
+<a href="https://austin.eater.com/maps/best-takeout-austin-restaurants-deliveries-to-go-food-orders" rel="noopener nofollow">오스틴 최고의 테이크아웃·배달 음식</a><p class="muted">Eater Austin이 오스틴에서 테이크아웃과 배달에 적합한 음식들을 소개한다.</p>      <p class="news-meta"><span class="src">Eater Austin</span>
+<span>9월 8일</span></p>
+    </li>
+    <li>
+<a href="https://thelongcenter.org/mid-week-intermission-friend-edition-creative-action/" rel="noopener nofollow">미드위크 인터미션 프렌드 에디션: Creative Action</a><p class="muted">The Long Center가 오스틴 지역사회를 지원하는 비영리단체 Creative Action을 소개하는 코너다.</p>      <p class="news-meta"><span class="src">The Long Center</span>
+<span>9월 1일</span></p>
+    </li>
+    <li>
+<a href="https://texasperformingarts.org/tpa-announces-huntington-bank-becomes-title-sponsor-for-broadway-in-austin-with-10-year-partnership/" rel="noopener nofollow">TPA, Huntington Bank와 10년 파트너십 체결 — Broadway in Austin 타이틀 스폰서 발표</a><p class="muted">Texas Performing Arts가 Huntington Bank를 Broadway in Austin의 타이틀 스폰서로 맞아 10년 파트너십을 시작하며, 45주년을 맞아 역대 최다인 11개 공연으로 구성된 시즌을 공개했다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>8월 21일</span></p>
+    </li>
+    <li>
+<a href="https://austinparks.org/blog/advantage-dottie-jordan-and-austin-parks/" rel="noopener nofollow">Advantage: Dottie Jordan와 오스틴 공원</a><p class="muted">2024년 9월 University Hills 주민들이 Austin Parks Foundation의 ACL 뮤직 페스티벌 지역사회 보조금(ACL Music Festival Neighborhood Grant)을 신청했으며, 당시 한 지역 주민이 Dottie Jordan 공원에서 무료 유소년 테니스 강습을 진행하고 있었다는 내용이다.</p>      <p class="news-meta"><span class="src">Austin Parks Foundation</span>
+<span>8월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.statesman.com/entertainment/arts/article/austin-arts-harry-potter-audra-mcdonald-22381055.php?utm_content=cta&amp;sid=6877048a9281ee69475c062a&amp;ss=P&amp;st_rid=2d6b9fb9-3fc7-4b9a-bfe7-ed80cc621cb9&amp;utm_source=newsletter&amp;utm_medium=email&amp;utm_term=roundup&amp;utm_campaign=stsm%20%7C%20morning%20briefing" rel="noopener nofollow">이번 시즌 오스틴 무대에서 볼 만한 공연은? 비평가의 추천</a><p class="muted">Austin American-Statesman이 브로드웨이 스타 Audra McDonald, Limón Dance Company 등 Texas Performing Arts(TPA) 공연을 포함한 이번 시즌 최고의 공연예술 가이드를 소개한다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>8월 12일</span></p>
+    </li>
+    <li>
+<a href="https://artsandculturetx.com/embracing-the-new-texas-performing-arts-new-season/" rel="noopener nofollow">새로움을 품다: Texas Performing Arts(TPA)의 새 시즌</a><p class="muted">Arts Culture Texas가 Audra McDonald, Limón Dance Company, Branford Marsalis, Dianne Reeves 등이 출연하는 TPA의 새 공연예술 시즌을 소개한다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>8월 12일</span></p>
+    </li>
+    <li>
+<a href="https://thelongcenter.org/mid-week-intermission-friend-edition-zak-drummond-of-zees-wiener-system/" rel="noopener nofollow">수요 인터미션 친구 편: Zee&#39;s Wiener System의 Zak Drummond</a><p class="muted">오스틴의 여름을 대표하는 Barton Springs 수영, 텍스멕스 마가리타, 라이브 음악 등을 배경으로 한 The Long Center의 인터뷰 시리즈 소개 글이다.</p>      <p class="news-meta"><span class="src">The Long Center</span>
+<span>8월 4일</span></p>
+    </li>
+    <li>
+<a href="https://blantonmuseum.org/2026/07/30/media-advisory-the-blanton-remembers-the-legacy-of-dr-gilberto-cardenas/" rel="noopener nofollow">Gilberto Cárdenas 박사의 유산을 기리며</a><p class="muted">Blanton Museum of Art의 라틴 미술 갤러리에서 2025년 가을 전시된 &#34;De Moda&#34; 설치 전경과 함께 Gilberto Cárdenas 박사를 추모하는 글이다.</p>      <p class="news-meta"><span class="src">Blanton Museum of Art</span>
+<span>7월 30일</span></p>
+    </li>
+    <li>
+<a href="https://austinparks.org/blog/people-of-the-parks-the-holdens/" rel="noopener nofollow">공원 사람들: Megan과 Jonathan Holden</a><p class="muted">Onion Creek Greenbelt 등 오스틴의 공원을 즐겨 찾는 Megan·Jonathan Holden 부부를 소개하는 Austin Parks Foundation의 인물 이야기다.</p>      <p class="news-meta"><span class="src">Austin Parks Foundation</span>
+<span>7월 24일</span></p>
+    </li>
+    <li>
+<a href="https://news.utexas.edu/2026/06/24/ut-establishes-new-vice-provost-for-the-arts/" rel="noopener nofollow">UT, 신설 예술 담당 부총장(Vice Provost for the Arts) 직위 마련</a><p class="muted">텍사스대학교 오스틴(UT Austin)이 예술 담당 부총장직을 신설하며 TPA의 Bob Bursey를 초대 부총장으로 임명한다는 소식이다.</p>      <p class="news-meta"><span class="src">Texas Performing Arts (UT)</span>
+<span>6월 26일</span></p>
+    </li>
+  </ul>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">오스틴 정착·생활 가이드</p>
+        <p class="muted">텍사스 오스틴에 자리 잡고, 잘 사는 데 필요한 정보와 지혜</p>
+      </div>
+      <div>
+        <p class="footer-head">분야</p>
+        <ul>
+<li><a href="/essentials/">도착 직후 필수</a></li><li><a href="/housing/">주거와 동네</a></li><li><a href="/education/">교육과 가족</a></li><li><a href="/health-tax/">의료·보험·세금</a></li><li><a href="/life/">생활과 커뮤니티</a></li><li><a href="/daily/">일상과 여가</a></li><li><a href="/business/">사업과 창업</a></li><li><a href="/wisdom/">먼저 겪은 사람의 지혜</a></li>        </ul>
+      </div>
+      <div>
+        <p class="footer-head">도구</p>
+        <ul>
+          <li><a href="/checklist/">90일 체크리스트</a></li>
+          <li><a href="/deadlines/">놓치면 안 되는 기한</a></li>
+          <li><a href="/free/">무료 개방일</a></li>
+          <li><a href="/museums/">박물관·미술관 36곳</a></li>
+          <li><a href="/prices/">장바구니 가격 비교</a></li>
+          <li><a href="/hmart/">H Mart 주간 세일</a></li>
+          <li><a href="/business/data/">업종별 사업체 수</a></li>
+          <li><a href="/events/">이벤트 캘린더</a></li>
+          <li><a href="/news/">지역 소식</a></li>
+          <li><a href="/search/">검색</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      이 사이트는 정착 과정을 안내하는 참고 자료입니다. <strong>이민·세무·법률 자문이 아닙니다.</strong>
+      수수료·기한·자격 요건은 자주 바뀌므로 실제 진행 전 반드시 각 문서에 링크된 공식 페이지에서 다시 확인하세요.
+    </p>
+    <p class="muted small footer-meta"><span>마지막 빌드 2026-09-19 13:06 CDT (오스틴 현지 시간)</span><a href="/privacy/">개인정보 처리방침</a></p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

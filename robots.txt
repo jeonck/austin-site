@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://austin.metacog.co.kr/sitemap.xml

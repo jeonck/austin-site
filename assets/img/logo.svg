@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Austin — longhorn">
+  <!-- horns: long sweep, tips curling up -->
+  <path d="M7 19 C9 30 18 34 28 32" stroke="#b8461f" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M57 19 C55 30 46 34 36 32" stroke="#b8461f" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- head -->
+  <path d="M23 29 C23 24 27 21 32 21 C37 21 41 24 41 29 C41 40 36 48 32 51 C28 48 23 40 23 29 Z" fill="#b8461f"/>
+  <!-- ears -->
+  <ellipse cx="21" cy="33" rx="4" ry="2.6" fill="#b8461f" transform="rotate(-25 21 33)"/>
+  <ellipse cx="43" cy="33" rx="4" ry="2.6" fill="#b8461f" transform="rotate(25 43 33)"/>
+  <!-- face -->
+  <circle cx="28.5" cy="31" r="1.9" fill="#f6efe4"/>
+  <circle cx="35.5" cy="31" r="1.9" fill="#f6efe4"/>
+  <ellipse cx="32" cy="43" rx="4.2" ry="2.8" fill="#f6efe4"/>
+  <circle cx="30.4" cy="43" r=".9" fill="#b8461f"/>
+  <circle cx="33.6" cy="43" r=".9" fill="#b8461f"/>
+</svg>
